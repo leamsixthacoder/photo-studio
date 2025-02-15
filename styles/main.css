@@ -52,11 +52,10 @@ header {
 }
 
 .brand-name {
-  color: var(--bs-gray-100);
-  font-size: 22px;
-  letter-spacing: 0.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  object-fit: contain; /* Ensures the image fits within the area without being cut off */
+  display: block; /* Ensures the image is treated as a block element */
 }
 
 .nav {
